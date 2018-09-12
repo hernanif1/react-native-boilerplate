@@ -6,6 +6,7 @@ import { StyleSheet, Button, Text, View } from 'react-native';
 import { compose } from 'recompose';
 import { connect } from 'react-redux';
 
+import withHeader from '../../commons/hocs/withHeader';
 import * as Actions from './HomeRedux';
 
 const styles = StyleSheet.create({
@@ -75,5 +76,8 @@ export default compose(
   connect(
     state => ({ ...state.home }),
     (dispatch: Dispatch<*>) => bind({ get: Actions.get }, dispatch)
-  )
+  ),
+  withHeader(({ t }: PropsType) => ({
+    title: t('home:headerTitle'),
+  }))
 )(HomeBase);

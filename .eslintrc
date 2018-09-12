@@ -1,6 +1,6 @@
 {
   "parser": "babel-eslint",
-  "plugins": ["react", "jest", "prettier"],
+  "plugins": ["react", "jest", "eslint-plugin-flowtype", "prettier"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true,

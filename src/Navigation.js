@@ -8,11 +8,9 @@ const screens = {
   NextPage: Details,
 };
 
-const Navigation = createStackNavigator(
-  { ...screens },
-  {
-    headerMode: 'none',
-    initialRouteName: 'LaunchScreen',
-  }
-);
+const navigationOptions = {
+  initialRouteName: 'LaunchScreen',
+};
+
+const Navigation = createStackNavigator(screens, navigationOptions);
 export default Navigation;

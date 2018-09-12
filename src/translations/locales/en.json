@@ -1,10 +1,12 @@
 {
   "home": {
+    "headerTitle": "Home header",
     "title": "Welcome Message",
     "introduction": "This text comes from i18next and is provided in english."
   },
   "page2": {
-    "title": "Page 2",
+    "headerTitle": "Page 2",
+    "title": "Title page 2",
     "introduction": "This text on page two."
   },
   "common": {
