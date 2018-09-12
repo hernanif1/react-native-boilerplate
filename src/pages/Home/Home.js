@@ -1,6 +1,6 @@
 import React from 'react';
+import type { NavigationScreenProp, NavigationState } from 'react-navigation';
 import { bindActionCreators as bind, type Dispatch } from 'redux';
-import { type NavigationScreenProp } from 'react-navigation';
 import { translate, type TFunction } from 'react-i18next';
 import { StyleSheet, Button, Text, View } from 'react-native';
 import { compose } from 'recompose';
@@ -28,7 +28,7 @@ export type HomeType = {
 type PropsType = {
   t: TFunction,
   i18n: Object,
-  navigation: NavigationScreenProp<{}>,
+  navigation: NavigationScreenProp<NavigationState>,
   home: HomeType,
   get: typeof Actions.get,
 };
