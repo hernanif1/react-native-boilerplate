@@ -1,0 +1,30 @@
+{
+  "home": {
+    "title": "Welcome Message",
+    "introduction": "This text comes from i18next and is provided in english."
+  },
+  "page2": {
+    "title": "Page 2",
+    "introduction": "This text on page two."
+  },
+  "common": {
+    "language": "English",
+    "currentLanguage": "The current language is {{lng}}",
+    "actions": {
+      "toggleToEnglish": "English",
+      "toggleToPortuguese": "Português",
+      "goToPageLaunchScreen": "Open launch screen",
+      "goToPage2": "Open page 2",
+      "fetchData": "Fetch API Data"
+    },
+    "errors": {
+      "unauthorized": "Login needed",
+      "unknown": "Something went wrong",
+      "duplication": "Duplicated entry",
+      "unprocessableEntity": "Incorrect value",
+      "networkError": "Please check your internet connection",
+      "badRequest": "The request could not be understood by the server.",
+      "notFound": "Not found"
+    }
+  }
+}

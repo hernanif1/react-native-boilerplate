@@ -1,0 +1,79 @@
+{
+  "name": "portman-portcall-frontend-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "flow-bin": "^0.80.0",
+    "flow-typed": "^2.5.1",
+    "husky": "^1.0.0-rc.13",
+    "jest-expo": "~27.0.0",
+    "jsdom": "^12.0.0",
+    "prettier": "^1.14.2",
+    "pretty-quick": "^1.6.0",
+    "react-native-mock-render": "^0.1.1",
+    "react-native-scripts": "1.14.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "commit": "git-cz",
+    "flow": "flow check",
+    "flow-typed": "flow-typed install",
+    "lint": "eslint '**/*.{js,jsx}'",
+    "postinstall": "npm run flow-typed",
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run flow && npm run lint && npm run test && pretty-quick --staged"
+    }
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "setupFiles": [
+      "<rootDir>/jestconfig.js"
+    ]
+  },
+  "dependencies": {
+    "apisauce": "^0.16.0",
+    "chai": "^4.1.2",
+    "chai-enzyme": "^1.0.0-beta.1",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.4.0",
+    "expo": "^27.0.1",
+    "i18next": "^11.6.0",
+    "i18next-react-native-language-detector": "^1.0.2",
+    "react": "16.3.1",
+    "react-i18next": "^7.11.1",
+    "react-native": "~0.55.2",
+    "react-native-locale-detector": "^1.0.1",
+    "react-navigation": "^2.12.1",
+    "react-redux": "^5.0.7",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "sentry-expo": "^1.9.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "peerDependencies": {
+    "jest": "23.x"
+  }
+}

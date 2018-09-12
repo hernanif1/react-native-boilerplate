@@ -1,0 +1,19 @@
+[ignore]
+.*/__tests__/.*
+.*/__mocks__/.*
+.*/flow-typed/.*
+.*/dist/.*
+.*/sass/*
+.*/node_modules/**
+.*/coverage/**
+.*/webpack.*.js
+.*.test.js
+.*/jestconfig.js
+
+
+[options]
+all=true
+module.name_mapper='^~/\(.*\)$' -> '<PROJECT_ROOT>/src/\1'
+
+[libs]
+flow-typed

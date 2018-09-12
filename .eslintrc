@@ -1,0 +1,44 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react", "jest", "prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "env": {
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb-base",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "lines-between-class-members": 0,
+    "import/order": [
+      "error",
+      { "newlines-between": "always", "groups": ["builtin", "external"] }
+    ]
+  },
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "version": "16.0",
+      "flowVersion": "0.80"
+    },
+    "propWrapperFunctions": ["forbidExtraProps"]
+  },
+  "globals": {
+    "document": true,
+    "shallow": true,
+    "renderer": true,
+    "mount": true,
+    "$Call": true,
+    "$Keys": true
+  }
+}

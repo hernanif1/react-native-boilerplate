@@ -1,0 +1,25 @@
+{
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": "**/*.{js,jsx}",
+      "options": {
+        "parser": "flow",
+        "trailingComma": "es5"
+      }
+    },
+    {
+      "files": "./**/*.json",
+      "options": {
+        "parser": "json",
+        "insertFinalNewline": true
+      }
+    },
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
+}

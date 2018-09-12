@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "sdkVersion": "27.0.0",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/icon.png",
+      "backgroundColor": "#000000"
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "port-master",
+            "project": "port-master-frontend-mobile",
+            "authToken": "3385810254a849d98b285f7b0476ffb3f16f33cece214a3cb6e943bf1d6171b5"
+          }
+        }
+      ]
+    }
+  }
+}
