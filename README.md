@@ -57,6 +57,7 @@ npm run commit
 - [x] splashscreen - to setup inital screen before open the app
 - [x] remove @FIXME: - to let
 - [x] example of unit test - to integrate test since the begin
+- [x] Header example - to let easier to implement header throught props
 - [ ] nativeBase - to use standarlized components
 
 ### TODO
