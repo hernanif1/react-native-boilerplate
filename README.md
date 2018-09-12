@@ -1,6 +1,6 @@
 # Boilerplate React-Native
 
-This opinionated boilerplate was born because I always need to configure the same libs in order let my app ready-to-production.
+This opinionated boilerplate was born because I always need to configure the same generic libs in order let my app ready-to-production.
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
