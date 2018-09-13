@@ -39,6 +39,7 @@
     "renderer": true,
     "mount": true,
     "$Call": true,
-    "$Keys": true
+    "$Keys": true,
+    "$Shape": true
   }
 }
