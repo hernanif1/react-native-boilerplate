@@ -54,10 +54,11 @@ npm run commit
 - [x] initial folders (services/ components) - to define the architeture standard
 - [x] environment variables - to fetch external datas in diferent enviroments
 - [x] icon - to setup home icon
-- [x] splashscreen - to setup inital screen before open the app
+- [x] splashscreen - to setup inaital screen before open the app
 - [x] remove @FIXME: - to let
 - [x] example of unit test - to integrate test since the begin
 - [x] Header example - to let easier to implement header throught props
+- [x] Styled components with jest - to let easier to implement nested css
 - [ ] nativeBase - to use standarlized components
 
 ### TODO

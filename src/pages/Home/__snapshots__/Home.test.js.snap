@@ -50,60 +50,31 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": Array [
-        <Text />,
-        <Text />,
-        <Text
-          style={
-            Object {
-              "marginBottom": 10,
-            }
-          }
-        />,
-        <Button
+        <Styled(Text) />,
+        <Styled(Text) />,
+        <Styled(Text) />,
+        <Styled(Button)
           block={true}
           onPress={[Function]}
-          style={
-            Object {
-              "marginBottom": 10,
-            }
-          }
           title={undefined}
         />,
-        <Button
+        <Styled(Button)
           block={true}
           onPress={[Function]}
-          style={
-            Object {
-              "marginBottom": 10,
-            }
-          }
           title={undefined}
         />,
-        <Button
+        <Styled(Button)
           block={true}
           onPress={[Function]}
-          style={
-            Object {
-              "marginBottom": 10,
-            }
-          }
           title={undefined}
         />,
-        <Button
+        <Styled(Button)
           block={true}
           onPress={undefined}
-          style={
-            Object {
-              "marginBottom": 10,
-            }
-          }
           title={undefined}
         />,
-        <Text />,
+        <Styled(Text) />,
       ],
-      "style": Object {
-        "flex": 1,
-      },
     },
     "ref": null,
     "rendered": Array [
@@ -135,9 +106,6 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": undefined,
-          "style": Object {
-            "marginBottom": 10,
-          },
         },
         "ref": null,
         "rendered": null,
@@ -150,9 +118,6 @@ ShallowWrapper {
         "props": Object {
           "block": true,
           "onPress": [Function],
-          "style": Object {
-            "marginBottom": 10,
-          },
           "title": undefined,
         },
         "ref": null,
@@ -166,9 +131,6 @@ ShallowWrapper {
         "props": Object {
           "block": true,
           "onPress": [Function],
-          "style": Object {
-            "marginBottom": 10,
-          },
           "title": undefined,
         },
         "ref": null,
@@ -182,9 +144,6 @@ ShallowWrapper {
         "props": Object {
           "block": true,
           "onPress": [Function],
-          "style": Object {
-            "marginBottom": 10,
-          },
           "title": undefined,
         },
         "ref": null,
@@ -198,9 +157,6 @@ ShallowWrapper {
         "props": Object {
           "block": true,
           "onPress": undefined,
-          "style": Object {
-            "marginBottom": 10,
-          },
           "title": undefined,
         },
         "ref": null,
@@ -228,60 +184,31 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <Text />,
-          <Text />,
-          <Text
-            style={
-              Object {
-                "marginBottom": 10,
-              }
-            }
-          />,
-          <Button
+          <Styled(Text) />,
+          <Styled(Text) />,
+          <Styled(Text) />,
+          <Styled(Button)
             block={true}
             onPress={[Function]}
-            style={
-              Object {
-                "marginBottom": 10,
-              }
-            }
             title={undefined}
           />,
-          <Button
+          <Styled(Button)
             block={true}
             onPress={[Function]}
-            style={
-              Object {
-                "marginBottom": 10,
-              }
-            }
             title={undefined}
           />,
-          <Button
+          <Styled(Button)
             block={true}
             onPress={[Function]}
-            style={
-              Object {
-                "marginBottom": 10,
-              }
-            }
             title={undefined}
           />,
-          <Button
+          <Styled(Button)
             block={true}
             onPress={undefined}
-            style={
-              Object {
-                "marginBottom": 10,
-              }
-            }
             title={undefined}
           />,
-          <Text />,
+          <Styled(Text) />,
         ],
-        "style": Object {
-          "flex": 1,
-        },
       },
       "ref": null,
       "rendered": Array [
@@ -313,9 +240,6 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": undefined,
-            "style": Object {
-              "marginBottom": 10,
-            },
           },
           "ref": null,
           "rendered": null,
@@ -328,9 +252,6 @@ ShallowWrapper {
           "props": Object {
             "block": true,
             "onPress": [Function],
-            "style": Object {
-              "marginBottom": 10,
-            },
             "title": undefined,
           },
           "ref": null,
@@ -344,9 +265,6 @@ ShallowWrapper {
           "props": Object {
             "block": true,
             "onPress": [Function],
-            "style": Object {
-              "marginBottom": 10,
-            },
             "title": undefined,
           },
           "ref": null,
@@ -360,9 +278,6 @@ ShallowWrapper {
           "props": Object {
             "block": true,
             "onPress": [Function],
-            "style": Object {
-              "marginBottom": 10,
-            },
             "title": undefined,
           },
           "ref": null,
@@ -376,9 +291,6 @@ ShallowWrapper {
           "props": Object {
             "block": true,
             "onPress": undefined,
-            "style": Object {
-              "marginBottom": 10,
-            },
             "title": undefined,
           },
           "ref": null,
