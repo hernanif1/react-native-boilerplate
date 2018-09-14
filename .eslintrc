@@ -40,6 +40,6 @@
     "mount": true,
     "$Call": true,
     "$Keys": true,
-    "$Shape": true
+    "$Exact": true
   }
 }

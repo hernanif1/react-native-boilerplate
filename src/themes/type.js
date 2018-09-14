@@ -10,7 +10,7 @@ type ThemeType = {
   },
 };
 
-type ITheme = $Shape<ThemeType>;
+type ITheme = $Exact<ThemeType>;
 
 // ThemeType is necessary when use withTheme from styledComponents
 export type { ITheme, ThemeType };
