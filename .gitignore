@@ -19,3 +19,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .DS_Store
+
+# ignore Webstorm (IDE) files
+.idea
+*.iml
+
+# ignore sonar generated files
+.scannerwork
