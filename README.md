@@ -34,6 +34,10 @@ Use only the command bellow to create commit
 npm run commit
 ```
 
+### Sentry
+Create a sentry account and put your ID [here](https://github.com/hernanif1/react-native-boilerplate/blob/d3f218fadf09e4eec014829af5455193a0c34c93/src/config/sentry.js#L4)
+
+
 ### Sonnar
 
 1. Start the docker container in your machine with the following command
